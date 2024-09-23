@@ -6,16 +6,17 @@
   }
   
   nav {
-    background-color: #333; /* Dark background */
+    background-color: #735c0796; /* Dark background */
     padding: 1rem 2rem;
+    
 
   }
   
   ul {
     list-style-type: none;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    /* justify-content: space-evenly; */
+    align-items: flex-start;
   }
   
   li {
@@ -30,11 +31,11 @@
   }
   
   a:hover {
-    color: #f39c12; /* Change text color on hover (Orange) */
+    color: #53ff7e; /* Change text color on hover (Orange) */
   }
   
   a:active {
-    color: #c0392b; /* Change text color when active (Red) */
+    color: #1bffec; /* Change text color when active (Red) */
   }
   
   /* Add some responsive behavior */

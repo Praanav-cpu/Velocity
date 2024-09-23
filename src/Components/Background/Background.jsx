@@ -1,35 +1,27 @@
-import './Background.css'
-import video1 from  '../../assets/video1.mp4'
-import image1 from '../../assets/image1.webp'
-import image2 from  '../../assets/image2.jpeg'
-import image3 from  '../../assets/image3.webp' 
+import './Background.css';
+import video1 from  '../../assets/video1.mp4';
 
 
-const Background = (playStatus,heroCount) => { 
-  
-  if (playStatus) {
-    return (
-      <video className='background' autoPlay loop muted>
-        <source src={video1} type="video/mp4" />
-      </video>
-    )
-  }
-  else if (heroCount===0)
-  {
-    return <img src ={image1} className='background' alt='' />
-    
-  }
-  else if (heroCount===1)
-    {
-      return <img src ={image2} className='background' alt='' />
+const Background = ({ playStatus, heroCount }) => {
+  return (
+    <div className="background-container">
       
-    }
-    else if (heroCount===2)
-      {
-        return <img src ={image3} className='background' alt='' />
-        
-      }
- 
-}
+      <video className="background-video" autoPlay loop muted>
+        <source src={video1} type="video/mp4" />
 
-export default Background
+      </video>
+      <div className="content-left">
+        <p>
+          Welcome to the Velocity Vibes experience, where speed meets style! 
+          This is your chance to explore the high-octane world of supercars.
+        </p>
+      </div>
+
+      <div className="center-button">
+        <button>Explore More</button>
+      </div>
+    </div>
+  );
+};
+
+export default Background;

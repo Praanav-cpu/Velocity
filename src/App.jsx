@@ -7,6 +7,7 @@ import VelocityVibes from './Pages/VelocityVibes';
 import TorqueZone from './Pages/TorqueZone';
 import RoadRacer from './Pages/RoadRacer';
 
+
 const App = () => {
   // const heroData = [
   //   { text1: "Dive into", text2: "what you love" },
