@@ -1,3 +1,4 @@
+
 /* Container Styles */
 .torque-zone-container {
     background: #0d0d0d;
@@ -8,6 +9,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    
   }
   
   /* Hero Section */
@@ -17,7 +19,8 @@
     position: relative;
     margin-bottom: 50px;
     border-radius: 12px;
-    /* overflow: hidden; */
+    overflow: hidden;
+    
   }
   
   .video-overlay {
@@ -26,6 +29,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
   }
   
   .background-video {
@@ -33,12 +37,16 @@
     height: 100%;
     object-fit: cover;
     filter: brightness(0.5);
+    animation: zoomIn 20s infinite alternate;
+    
   }
   
   .hero-text {
-    position: absolute;
     text-align: center;
     color: #f8e71c;
+    z-index: 1;
+    animation: fadeInUp 1.5s forwards;
+    
   }
   
   .hero-text h1 {
@@ -52,7 +60,7 @@
   }
   
   .hero-button {
-    background: linear-gradient(90deg, #f8e71c, #ffcc00);
+    background: linear-gradient(90deg, #f8e61c5b, #aaebff2e);
     border: none;
     padding: 10px 20px;
     color: #000;
@@ -64,9 +72,9 @@
   }
   
   .hero-button:hover {
-    background: linear-gradient(90deg, #ffcc00, #f8e71c);
-    transform: scale(1.05);
-    box-shadow: 0 0 15px #ffcc00, 0 0 30px #ffcc00;
+    background: linear-gradient(90deg, #ffce0833, #3338374f);
+    /* transform: scale(1.05); */
+    /* box-shadow: 0 0 15px #ffcc00, 0 0 30px #ffcc00; */
   }
   
   /* Features Section */
