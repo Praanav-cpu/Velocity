@@ -19,6 +19,11 @@ const TorqueZone = () => {
         <div className="video-overlay">
         <video className="background-video" autoPlay loop muted>
         <source src={videoDrift} type="video/mp4" />
+        <div className="hero-text">
+            <h1>Torque Zone</h1>
+            <p>Feel the adrenaline of ultimate drifting!</p>
+            <button className="hero-button">Join the Drift</button>
+          </div>
       </video>
           <div className="hero-text">
             <h1>Torque Zone</h1>
