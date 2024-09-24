@@ -1,10 +1,6 @@
 // Import React
 import React from 'react';
-import './TorqueZone.css'; // Import the CSS file
-// import videoDrift from '../assets/videoDrift.mp4'; // Import the background video
-// import driftImage1 from '../assets/drift1.avif'; // Import additional gallery images
-// import driftImage2 from '../assets/drift2.webp';
-// import driftImage3 from '../assets/drift3.jpg';
+import './TorqueZone.css'; 
 import videoDrift from '../assets/videoDrift.mp4';
 import driftImage1 from '../assets/driftImage1.avif';
 import driftImage2 from '../assets/driftImage2.webp';
