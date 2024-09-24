@@ -12,7 +12,7 @@ function Navbar() {
         </Link>
       </div>
       <ul className="navbar-links">
-        <li><Link to="/">Home</Link></li>
+        <li><Link to="/l">Home</Link></li>
         <li><Link to="/velocity-vibes">Velocity Vibes</Link></li>
         <li><Link to="/torque-zone">Torque Zone</Link></li>
         <li><Link to="/road-racer">Road Racer</Link></li>

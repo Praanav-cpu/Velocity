@@ -4,7 +4,7 @@
   justify-content: space-between;
   background-color: #1a1a1a;
   padding: 15px 30px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0);
 }
 
 .navbar-logo .logo {
@@ -25,13 +25,13 @@
 
 .navbar-links a {
   text-decoration: none;
-  color: #f8e71c;
+  color: #ffffff;
   font-weight: bold;
   transition: color 0.3s;
 }
 
 .navbar-links a:hover {
-  color: #ffcc00;
+  color: #16f9cf;
 }
 
 .navbar-links li::after {
@@ -41,7 +41,7 @@
   bottom: -5px;
   height: 3px;
   width: 0;
-  background: #f8e71c;
+  background: #16f9cf;
   transition: width 0.3s, left 0.3s;
 }
 
