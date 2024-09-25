@@ -44,7 +44,6 @@
   border: none;
   padding: 10px 20px;
   color: #000;
-  
   font-weight: bold;
   cursor: pointer;
   border-radius: 5px;
@@ -53,8 +52,7 @@
 
 .center-button button:hover {
   background: linear-gradient(90deg, #34ff9ada, #cdc461);
-  transform: scale(1);
-  /* box-shadow: 0 0 15px #ffcc00, 0 0 30px #ffcc00; */
+  transform: scale(1.05);
 }
 
 /* Features Section */

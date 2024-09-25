@@ -3,9 +3,12 @@ import React, { useState } from 'react';
 import Navbar from './Components/Navbar/Navbar';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';  // Ensure this is correct
 import Home from './Components/Background/Background';
+
 import VelocityVibes from './Pages/VelocityVibes';
 import TorqueZone from './Pages/TorqueZone';
 import RoadRacer from './Pages/RoadRacer';
+import Login from './Pages/Login';
+
 
 
 const App = () => {
@@ -36,6 +39,8 @@ const App = () => {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
+        
+          <Route path="/P" element={<Login />} />
           <Route path="/velocity-vibes" element={<VelocityVibes />} />
           <Route path="/torque-zone" element={<TorqueZone />} />
           <Route path="/road-racer" element={<RoadRacer />} />
